@@ -82,8 +82,8 @@ jobs:
         run: |
           set -e
 
-          DOWN_URL="https://dl.google.com/dl/android/aosp/"
-          DOWN_BRANCH="husky-bp2a.250705.008-factory-2790a053.zip"
+          DOWN_URL="https://dl.google.com/developers/android/baklava/images/factory/"
+          DOWN_BRANCH="shiba_beta-bp31.250610.004-factory-f0823b4d.zip"
           # Для Pixel 8 и 8 Pro boot.img и vendor_kernel_boot.img одинаковые.
           MKBOOTIMG_DIR="FilesForImg"
 
